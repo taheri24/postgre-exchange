@@ -10,14 +10,9 @@ This project aims to facilitate the conversion of major databases to PostgreSQL,
 
 ## Installing
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/convert-major-databases-to-postgresql.git
-Navigate to the project directory:
-bash
-cd convert-major-databases-to-postgresql
-Install dependencies:
-bash
-go mod tidy
+```bash
+   git install https://github.com/taheri/postgre-exchange
+``` 
 
 ## Roadmap
 ### Phase 1: Initial Setup
@@ -25,7 +20,7 @@ go mod tidy
 - [ ] Set up project structure
 - [ ] Configure database URLs in the config file
 
-Phase 2: Core Features Development
+### Phase 2: Core Features Development
 
 - [ ] Implement database schema conversion
 - [ ] Convert tables
@@ -55,17 +50,15 @@ Phase 2: Core Features Development
 - [ ] Release the first version
 - [ ] Gather user feedback for future improvements
 
-Features
-Convert Database Schema
-
-Support for converting tables, indexes, and constraints from various database systems to PostgreSQL format.
+## Features
+- Convert Database Schema
+- Support for converting tables, indexes, and constraints from various database systems to PostgreSQL format.
 Replication
-
-Ability to replicate data from source databases to PostgreSQL, ensuring up-to-date data availability.
+- Ability to replicate data from source databases to PostgreSQL, ensuring up-to-date data availability.
 Monitor Activity
+- Real-time monitoring of database activity through the React frontend, including logging and alerting for critical events.
 
-Real-time monitoring of database activity through the React frontend, including logging and alerting for critical events.
-Supported Databases
+### Supported Databases
 MySQL
 Oracle
 Microsoft SQL Server
